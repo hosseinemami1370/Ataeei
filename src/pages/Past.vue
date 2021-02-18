@@ -3,7 +3,7 @@
     <ul style="list-style-type:none;">
       <li v-for="(artist) in artists" :key="artist.id" >
       <h4 class="title">{{artist.id}}. 
-        <img src="./grayarrow.gif" class="votearrow"/>
+        <img src="../assets/grayarrow.gif" class="votearrow"/>
         <span class="storylink"> {{artist.text}}</span> 
         <span class="sitestr">({{artist.site}})</span>
       </h4>

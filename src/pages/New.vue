@@ -2,7 +2,7 @@
   <div>
     <ul style="list-style-type:none;">
       <li v-for="(artist) in artists" :key="artist.id" >
-      <h4 class="title">{{artist.id}}. <img src="./grayarrow.gif" class="votearrow"/><span class="storylink"> {{artist.text}}</span> <span class="sitestr">({{artist.site}})</span></h4>
+      <h4 class="title">{{artist.id}}. <img src="../assets/grayarrow.gif" class="votearrow"/><span class="storylink"> {{artist.text}}</span> <span class="sitestr">({{artist.site}})</span></h4>
       <h6 style="padding-left:30px" class="subtext">{{artist.points}} Points by <a>{{artist.BY}}</a> <a>{{artist.lastDate}}</a> | <a>{{artist.visit}}</a> | <a>{{artist.CounterComments}} comments</a></h6>
       
       </li>

@@ -1,10 +1,10 @@
-import Ask from './components/menu/Ask'
-import Comments from './components/menu/Comments'
-import Jobs from './components/menu/Jobs'
-import New from './components/menu/New'
-import Past from './components/menu/Past'
-import Show from './components/menu/Show'
-import Submit from './components/menu/Submit'
+import Ask from '../src/pages/Ask'
+import Comments from '../src/pages/Comments'
+import Jobs from '../src/pages/Jobs'
+import New from '../src/pages/New'
+import Past from '../src/pages/Past'
+import Show from '../src/pages/Show'
+import Submit from '../src/pages/Submit'
 
 export const routes=[
     { path: '/', component: New },
